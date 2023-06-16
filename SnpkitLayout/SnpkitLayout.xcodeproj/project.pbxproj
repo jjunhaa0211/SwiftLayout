@@ -20,6 +20,7 @@
 		0E0CBA9D2A3C0C01009FA0C0 /* ExampleUIViewAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBA9C2A3C0C01009FA0C0 /* ExampleUIViewAnimateViewController.swift */; };
 		0E0CBA9F2A3C14FC009FA0C0 /* ExampleUIViewController11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBA9E2A3C14FC009FA0C0 /* ExampleUIViewController11.swift */; };
 		0E0CBAA22A3C22D2009FA0C0 /* ExampleUIStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBAA12A3C22D2009FA0C0 /* ExampleUIStackViewController.swift */; };
+		0E0CBAB72A3C4C37009FA0C0 /* ExampleUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBAB62A3C4C37009FA0C0 /* ExampleUICollectionViewController.swift */; };
 		0EC03DDF2A11E56B007CD53C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03DDE2A11E56B007CD53C /* AppDelegate.swift */; };
 		0EC03DE12A11E56B007CD53C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03DE02A11E56B007CD53C /* SceneDelegate.swift */; };
 		0EC03DE32A11E56B007CD53C /* ExampleUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03DE22A11E56B007CD53C /* ExampleUIViewController.swift */; };
@@ -41,6 +42,7 @@
 		0E0CBA9C2A3C0C01009FA0C0 /* ExampleUIViewAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewAnimateViewController.swift; sourceTree = "<group>"; };
 		0E0CBA9E2A3C14FC009FA0C0 /* ExampleUIViewController11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewController11.swift; sourceTree = "<group>"; };
 		0E0CBAA12A3C22D2009FA0C0 /* ExampleUIStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIStackViewController.swift; sourceTree = "<group>"; };
+		0E0CBAB62A3C4C37009FA0C0 /* ExampleUICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUICollectionViewController.swift; sourceTree = "<group>"; };
 		0EC03DDB2A11E56B007CD53C /* SnpkitLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnpkitLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC03DDE2A11E56B007CD53C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC03DE02A11E56B007CD53C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		0E0CBA872A3BF622009FA0C0 /* example */ = {
 			isa = PBXGroup;
 			children = (
+				0E0CBAB52A3C4C27009FA0C0 /* UICollectionView */,
 				0E0CBAA02A3C22C1009FA0C0 /* UIStackView */,
 				0E0CBA882A3BF644009FA0C0 /* UIView */,
 			);
@@ -105,6 +108,14 @@
 				0E0CBAA12A3C22D2009FA0C0 /* ExampleUIStackViewController.swift */,
 			);
 			name = UIStackView;
+			sourceTree = "<group>";
+		};
+		0E0CBAB52A3C4C27009FA0C0 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CBAB62A3C4C37009FA0C0 /* ExampleUICollectionViewController.swift */,
+			);
+			name = UICollectionView;
 			sourceTree = "<group>";
 		};
 		0EC03DD22A11E56B007CD53C = {
@@ -221,6 +232,7 @@
 				0E0CBA942A3C02C8009FA0C0 /* ExampleUIViewCotroller6.swift in Sources */,
 				0E0CBA9A2A3C08FC009FA0C0 /* ExampleUIViewController10.swift in Sources */,
 				0E0CBA962A3C0505009FA0C0 /* ExampleUIViewCotroller8.swift in Sources */,
+				0E0CBAB72A3C4C37009FA0C0 /* ExampleUICollectionViewController.swift in Sources */,
 				0E0CBA9F2A3C14FC009FA0C0 /* ExampleUIViewController11.swift in Sources */,
 				0E0CBA8A2A3BF6D0009FA0C0 /* ExampleUIViewController2.swift in Sources */,
 				0E0CBA8E2A3BFBAE009FA0C0 /* ExampleUIViewController4.swift in Sources */,
