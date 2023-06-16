@@ -15,6 +15,7 @@
 		0E0CBA922A3C01A9009FA0C0 /* ExampleUIViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBA912A3C01A9009FA0C0 /* ExampleUIViewController7.swift */; };
 		0E0CBA942A3C02C8009FA0C0 /* ExampleUIViewCotroller6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBA932A3C02C8009FA0C0 /* ExampleUIViewCotroller6.swift */; };
 		0E0CBA962A3C0505009FA0C0 /* ExampleUIViewCotroller8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBA952A3C0505009FA0C0 /* ExampleUIViewCotroller8.swift */; };
+		0E0CBA982A3C0656009FA0C0 /* ExampleUIViewCotroller9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CBA972A3C0656009FA0C0 /* ExampleUIViewCotroller9.swift */; };
 		0EC03DDF2A11E56B007CD53C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03DDE2A11E56B007CD53C /* AppDelegate.swift */; };
 		0EC03DE12A11E56B007CD53C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03DE02A11E56B007CD53C /* SceneDelegate.swift */; };
 		0EC03DE32A11E56B007CD53C /* ExampleUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03DE22A11E56B007CD53C /* ExampleUIViewController.swift */; };
@@ -31,6 +32,7 @@
 		0E0CBA912A3C01A9009FA0C0 /* ExampleUIViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewController7.swift; sourceTree = "<group>"; };
 		0E0CBA932A3C02C8009FA0C0 /* ExampleUIViewCotroller6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewCotroller6.swift; sourceTree = "<group>"; };
 		0E0CBA952A3C0505009FA0C0 /* ExampleUIViewCotroller8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewCotroller8.swift; sourceTree = "<group>"; };
+		0E0CBA972A3C0656009FA0C0 /* ExampleUIViewCotroller9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewCotroller9.swift; sourceTree = "<group>"; };
 		0EC03DDB2A11E56B007CD53C /* SnpkitLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnpkitLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC03DDE2A11E56B007CD53C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC03DE02A11E56B007CD53C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				0E0CBA932A3C02C8009FA0C0 /* ExampleUIViewCotroller6.swift */,
 				0E0CBA912A3C01A9009FA0C0 /* ExampleUIViewController7.swift */,
 				0E0CBA952A3C0505009FA0C0 /* ExampleUIViewCotroller8.swift */,
+				0E0CBA972A3C0656009FA0C0 /* ExampleUIViewCotroller9.swift */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0CBA8C2A3BF789009FA0C0 /* ExampleUIViewController3.swift in Sources */,
+				0E0CBA982A3C0656009FA0C0 /* ExampleUIViewCotroller9.swift in Sources */,
 				0E0CBA922A3C01A9009FA0C0 /* ExampleUIViewController7.swift in Sources */,
 				0E0CBA942A3C02C8009FA0C0 /* ExampleUIViewCotroller6.swift in Sources */,
 				0E0CBA962A3C0505009FA0C0 /* ExampleUIViewCotroller8.swift in Sources */,
