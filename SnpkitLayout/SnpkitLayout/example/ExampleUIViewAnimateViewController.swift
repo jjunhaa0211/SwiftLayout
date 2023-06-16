@@ -9,6 +9,7 @@ import SnapKit
 import Then
 import UIKit
 
+// snpkit으로 애니메이션 나타내는 방법
 class ExampleUIViewAnimateViewController: UIViewController {
     
     lazy var redView = UIView(frame: .zero)
@@ -42,13 +43,13 @@ class ExampleUIViewAnimateViewController: UIViewController {
             $0.height.width.equalTo(boxWidth)
         }
         
-        view.layoutIfNeeded() //layout이 모두 되었는지 확인하는 코드
+        view.layoutIfNeeded() // 메서드는 현재 뷰와 해당 뷰의 모든 하위 뷰의 레이아웃을 업데이트
         
         UIView.animate(withDuration: 0.5, delay: 1.0) {
             self.redView.snp.updateConstraints {
                 $0.top.equalToSuperview().offset(200.0)
             }
-            self.view.layoutIfNeeded()
+            self.view.layoutIfNeeded() // 변경된 layout을 재정의 합니다.
         }
     }
 }
