@@ -21,6 +21,7 @@ class ExampleUIViewController1: UIViewController {
         
         view.addSubview(box)
         
+        //박스를 가운데로 가져오는 예제
         box.snp.makeConstraints {
             $0.width.height.equalTo(100)
             $0.center.equalToSuperview()
