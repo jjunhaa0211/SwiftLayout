@@ -9,6 +9,7 @@ import UIKit
 import SnapKit
 import Then
 
+//전체적으로 lyaout을 화면에 꽉체우는 방법
 class ExampleUIViewController2: UIViewController {
     
     var redBox = UIView()
