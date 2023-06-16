@@ -37,5 +37,6 @@ class ExampleUIViewCotroller7: UIViewController {
     
     /*
      위에 네비게이션 부분을 채웁니다.
+     개선된 코드는 ExampleUIViewController10에 가시면 개선된 코드에 inset을 사용하는 것을 볼 수 있습니다. 
      */
 }
