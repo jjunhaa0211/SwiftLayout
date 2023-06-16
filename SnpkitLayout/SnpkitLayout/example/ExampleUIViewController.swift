@@ -9,6 +9,7 @@ import UIKit
 import SnapKit
 import Then
 
+//중앙으로 layout을 고정하는 방법
 class ExampleUIViewController1: UIViewController {
     
     var box = UIView()

@@ -9,6 +9,7 @@ import UIKit
 import SnapKit
 import Then
 
+//offset을 통해서 layout의 왼쪽과 오른쪽을 안으로 들어가게 하는 방법
 class ExampleUIViewController3: UIViewController {
     
     var redBox = UIView()
