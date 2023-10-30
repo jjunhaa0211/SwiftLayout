@@ -11,6 +11,7 @@
 		0E70B9932AEF8085005FA1F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70B9922AEF8085005FA1F9 /* ContentView.swift */; };
 		0E70B9952AEF8087005FA1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70B9942AEF8087005FA1F9 /* Assets.xcassets */; };
 		0E70B9982AEF8087005FA1F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70B9972AEF8087005FA1F9 /* Preview Assets.xcassets */; };
+		0E70B9A12AEF841D005FA1F9 /* HStack1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70B9A02AEF841D005FA1F9 /* HStack1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0E70B9922AEF8085005FA1F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E70B9942AEF8087005FA1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E70B9972AEF8087005FA1F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E70B9A02AEF841D005FA1F9 /* HStack1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0E70B9902AEF8085005FA1F9 /* SwiftUILayoutApp.swift */,
 				0E70B9922AEF8085005FA1F9 /* ContentView.swift */,
+				0E70B99E2AEF835F005FA1F9 /* Stack */,
 				0E70B9942AEF8087005FA1F9 /* Assets.xcassets */,
 				0E70B9962AEF8087005FA1F9 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				0E70B9972AEF8087005FA1F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E70B99E2AEF835F005FA1F9 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				0E70B99F2AEF83EF005FA1F9 /* HStack */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		0E70B99F2AEF83EF005FA1F9 /* HStack */ = {
+			isa = PBXGroup;
+			children = (
+				0E70B9A02AEF841D005FA1F9 /* HStack1View.swift */,
+			);
+			path = HStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E70B9932AEF8085005FA1F9 /* ContentView.swift in Sources */,
+				0E70B9A12AEF841D005FA1F9 /* HStack1View.swift in Sources */,
 				0E70B9912AEF8085005FA1F9 /* SwiftUILayoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
