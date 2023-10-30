@@ -14,6 +14,7 @@
 		0E70B9A12AEF841D005FA1F9 /* HStack1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70B9A02AEF841D005FA1F9 /* HStack1View.swift */; };
 		0E70B9A42AEF85C1005FA1F9 /* VStack1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70B9A32AEF85C1005FA1F9 /* VStack1View.swift */; };
 		0E70B9A72AEF89B5005FA1F9 /* ZStack1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70B9A62AEF89B5005FA1F9 /* ZStack1View.swift */; };
+		0E70B9A92AEF8D04005FA1F9 /* VStack2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70B9A82AEF8D04005FA1F9 /* VStack2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0E70B9A02AEF841D005FA1F9 /* HStack1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack1View.swift; sourceTree = "<group>"; };
 		0E70B9A32AEF85C1005FA1F9 /* VStack1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack1View.swift; sourceTree = "<group>"; };
 		0E70B9A62AEF89B5005FA1F9 /* ZStack1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack1View.swift; sourceTree = "<group>"; };
+		0E70B9A82AEF8D04005FA1F9 /* VStack2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				0E70B9A32AEF85C1005FA1F9 /* VStack1View.swift */,
+				0E70B9A82AEF8D04005FA1F9 /* VStack2View.swift */,
 			);
 			path = VStack;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E70B9A42AEF85C1005FA1F9 /* VStack1View.swift in Sources */,
+				0E70B9A92AEF8D04005FA1F9 /* VStack2View.swift in Sources */,
 				0E70B9A72AEF89B5005FA1F9 /* ZStack1View.swift in Sources */,
 				0E70B9932AEF8085005FA1F9 /* ContentView.swift in Sources */,
 				0E70B9A12AEF841D005FA1F9 /* HStack1View.swift in Sources */,
