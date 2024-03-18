@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAB649D2BA7E0690016AC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB649C2BA7E0690016AC4C /* AppDelegate.swift */; };
+		0EAB649F2BA7E0690016AC4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB649E2BA7E0690016AC4C /* SceneDelegate.swift */; };
+		0EAB64A12BA7E0690016AC4C /* FlexColumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB64A02BA7E0690016AC4C /* FlexColumeViewController.swift */; };
+		0EAB64A62BA7E06A0016AC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB64A52BA7E06A0016AC4C /* Assets.xcassets */; };
+		0EAB64A92BA7E06A0016AC4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB64A72BA7E06A0016AC4C /* LaunchScreen.storyboard */; };
+		0EAB64B42BA7E06B0016AC4C /* FlexLayoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB64B32BA7E06A0016AC4C /* FlexLayoutsTests.swift */; };
+		0EAB64BE2BA7E06B0016AC4C /* FlexLayoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB64BD2BA7E06B0016AC4C /* FlexLayoutsUITests.swift */; };
+		0EAB64C02BA7E06B0016AC4C /* FlexLayoutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB64BF2BA7E06B0016AC4C /* FlexLayoutsUITestsLaunchTests.swift */; };
+		0EAB64CE2BA7E19F0016AC4C /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 0EAB64CD2BA7E19F0016AC4C /* FlexLayout */; };
+		0EAB64D12BA7E27F0016AC4C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0EAB64D02BA7E27F0016AC4C /* Then */; };
+		0EAB64D42BA7E4000016AC4C /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 0EAB64D32BA7E4000016AC4C /* PinLayout */; };
+		0EFFFAE32BA7EB5A00C58DFE /* FlexRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAE22BA7EB5A00C58DFE /* FlexRowViewController.swift */; };
+		0EFFFAE52BA7EBEA00C58DFE /* FlexPaddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAE42BA7EBEA00C58DFE /* FlexPaddingViewController.swift */; };
+		0EFFFAE72BA7EC6900C58DFE /* FlexPaddingLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAE62BA7EC6900C58DFE /* FlexPaddingLeftViewController.swift */; };
+		0EFFFAE92BA7EE8B00C58DFE /* FlexPaddingHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAE82BA7EE8B00C58DFE /* FlexPaddingHorizontalViewController.swift */; };
+		0EFFFAEB2BA7EEDD00C58DFE /* FlexHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAEA2BA7EEDD00C58DFE /* FlexHorizontalViewController.swift */; };
+		0EFFFAED2BA7EFA800C58DFE /* FlexbackgroundColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAEC2BA7EFA800C58DFE /* FlexbackgroundColorViewController.swift */; };
+		0EFFFAEF2BA7F28300C58DFE /* FlexGrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFFAEE2BA7F28300C58DFE /* FlexGrowViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EAB64B02BA7E06A0016AC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EAB64912BA7E0690016AC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EAB64982BA7E0690016AC4C;
+			remoteInfo = FlexLayouts;
+		};
+		0EAB64BA2BA7E06B0016AC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EAB64912BA7E0690016AC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EAB64982BA7E0690016AC4C;
+			remoteInfo = FlexLayouts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EAB64992BA7E0690016AC4C /* FlexLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAB649C2BA7E0690016AC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EAB649E2BA7E0690016AC4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EAB64A02BA7E0690016AC4C /* FlexColumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexColumeViewController.swift; sourceTree = "<group>"; };
+		0EAB64A52BA7E06A0016AC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EAB64A82BA7E06A0016AC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EAB64AA2BA7E06A0016AC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAB64AF2BA7E06A0016AC4C /* FlexLayoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexLayoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAB64B32BA7E06A0016AC4C /* FlexLayoutsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexLayoutsTests.swift; sourceTree = "<group>"; };
+		0EAB64B92BA7E06B0016AC4C /* FlexLayoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexLayoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAB64BD2BA7E06B0016AC4C /* FlexLayoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexLayoutsUITests.swift; sourceTree = "<group>"; };
+		0EAB64BF2BA7E06B0016AC4C /* FlexLayoutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexLayoutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EFFFAE22BA7EB5A00C58DFE /* FlexRowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexRowViewController.swift; sourceTree = "<group>"; };
+		0EFFFAE42BA7EBEA00C58DFE /* FlexPaddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexPaddingViewController.swift; sourceTree = "<group>"; };
+		0EFFFAE62BA7EC6900C58DFE /* FlexPaddingLeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexPaddingLeftViewController.swift; sourceTree = "<group>"; };
+		0EFFFAE82BA7EE8B00C58DFE /* FlexPaddingHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexPaddingHorizontalViewController.swift; sourceTree = "<group>"; };
+		0EFFFAEA2BA7EEDD00C58DFE /* FlexHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexHorizontalViewController.swift; sourceTree = "<group>"; };
+		0EFFFAEC2BA7EFA800C58DFE /* FlexbackgroundColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexbackgroundColorViewController.swift; sourceTree = "<group>"; };
+		0EFFFAEE2BA7F28300C58DFE /* FlexGrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexGrowViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EAB64962BA7E0690016AC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAB64D42BA7E4000016AC4C /* PinLayout in Frameworks */,
+				0EAB64CE2BA7E19F0016AC4C /* FlexLayout in Frameworks */,
+				0EAB64D12BA7E27F0016AC4C /* Then in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAB64AC2BA7E06A0016AC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAB64B62BA7E06B0016AC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EAB64902BA7E0690016AC4C = {
+			isa = PBXGroup;
+			children = (
+				0EAB649B2BA7E0690016AC4C /* FlexLayouts */,
+				0EAB64B22BA7E06A0016AC4C /* FlexLayoutsTests */,
+				0EAB64BC2BA7E06B0016AC4C /* FlexLayoutsUITests */,
+				0EAB649A2BA7E0690016AC4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EAB649A2BA7E0690016AC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB64992BA7E0690016AC4C /* FlexLayouts.app */,
+				0EAB64AF2BA7E06A0016AC4C /* FlexLayoutsTests.xctest */,
+				0EAB64B92BA7E06B0016AC4C /* FlexLayoutsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EAB649B2BA7E0690016AC4C /* FlexLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB649C2BA7E0690016AC4C /* AppDelegate.swift */,
+				0EAB649E2BA7E0690016AC4C /* SceneDelegate.swift */,
+				0EAB64A02BA7E0690016AC4C /* FlexColumeViewController.swift */,
+				0EFFFAE22BA7EB5A00C58DFE /* FlexRowViewController.swift */,
+				0EFFFAE42BA7EBEA00C58DFE /* FlexPaddingViewController.swift */,
+				0EFFFAE62BA7EC6900C58DFE /* FlexPaddingLeftViewController.swift */,
+				0EFFFAE82BA7EE8B00C58DFE /* FlexPaddingHorizontalViewController.swift */,
+				0EFFFAEA2BA7EEDD00C58DFE /* FlexHorizontalViewController.swift */,
+				0EFFFAEC2BA7EFA800C58DFE /* FlexbackgroundColorViewController.swift */,
+				0EFFFAEE2BA7F28300C58DFE /* FlexGrowViewController.swift */,
+				0EAB64A52BA7E06A0016AC4C /* Assets.xcassets */,
+				0EAB64A72BA7E06A0016AC4C /* LaunchScreen.storyboard */,
+				0EAB64AA2BA7E06A0016AC4C /* Info.plist */,
+			);
+			path = FlexLayouts;
+			sourceTree = "<group>";
+		};
+		0EAB64B22BA7E06A0016AC4C /* FlexLayoutsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB64B32BA7E06A0016AC4C /* FlexLayoutsTests.swift */,
+			);
+			path = FlexLayoutsTests;
+			sourceTree = "<group>";
+		};
+		0EAB64BC2BA7E06B0016AC4C /* FlexLayoutsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EAB64BD2BA7E06B0016AC4C /* FlexLayoutsUITests.swift */,
+				0EAB64BF2BA7E06B0016AC4C /* FlexLayoutsUITestsLaunchTests.swift */,
+			);
+			path = FlexLayoutsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EAB64982BA7E0690016AC4C /* FlexLayouts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAB64C32BA7E06B0016AC4C /* Build configuration list for PBXNativeTarget "FlexLayouts" */;
+			buildPhases = (
+				0EAB64952BA7E0690016AC4C /* Sources */,
+				0EAB64962BA7E0690016AC4C /* Frameworks */,
+				0EAB64972BA7E0690016AC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexLayouts;
+			packageProductDependencies = (
+				0EAB64CD2BA7E19F0016AC4C /* FlexLayout */,
+				0EAB64D02BA7E27F0016AC4C /* Then */,
+				0EAB64D32BA7E4000016AC4C /* PinLayout */,
+			);
+			productName = FlexLayouts;
+			productReference = 0EAB64992BA7E0690016AC4C /* FlexLayouts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EAB64AE2BA7E06A0016AC4C /* FlexLayoutsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAB64C62BA7E06B0016AC4C /* Build configuration list for PBXNativeTarget "FlexLayoutsTests" */;
+			buildPhases = (
+				0EAB64AB2BA7E06A0016AC4C /* Sources */,
+				0EAB64AC2BA7E06A0016AC4C /* Frameworks */,
+				0EAB64AD2BA7E06A0016AC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EAB64B12BA7E06A0016AC4C /* PBXTargetDependency */,
+			);
+			name = FlexLayoutsTests;
+			productName = FlexLayoutsTests;
+			productReference = 0EAB64AF2BA7E06A0016AC4C /* FlexLayoutsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EAB64B82BA7E06B0016AC4C /* FlexLayoutsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAB64C92BA7E06B0016AC4C /* Build configuration list for PBXNativeTarget "FlexLayoutsUITests" */;
+			buildPhases = (
+				0EAB64B52BA7E06B0016AC4C /* Sources */,
+				0EAB64B62BA7E06B0016AC4C /* Frameworks */,
+				0EAB64B72BA7E06B0016AC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EAB64BB2BA7E06B0016AC4C /* PBXTargetDependency */,
+			);
+			name = FlexLayoutsUITests;
+			productName = FlexLayoutsUITests;
+			productReference = 0EAB64B92BA7E06B0016AC4C /* FlexLayoutsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EAB64912BA7E0690016AC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0EAB64982BA7E0690016AC4C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0EAB64AE2BA7E06A0016AC4C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0EAB64982BA7E0690016AC4C;
+					};
+					0EAB64B82BA7E06B0016AC4C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0EAB64982BA7E0690016AC4C;
+					};
+				};
+			};
+			buildConfigurationList = 0EAB64942BA7E0690016AC4C /* Build configuration list for PBXProject "FlexLayouts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EAB64902BA7E0690016AC4C;
+			packageReferences = (
+				0EAB64CC2BA7E19F0016AC4C /* XCRemoteSwiftPackageReference "FlexLayout" */,
+				0EAB64CF2BA7E27F0016AC4C /* XCRemoteSwiftPackageReference "Then" */,
+				0EAB64D22BA7E4000016AC4C /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
+			productRefGroup = 0EAB649A2BA7E0690016AC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EAB64982BA7E0690016AC4C /* FlexLayouts */,
+				0EAB64AE2BA7E06A0016AC4C /* FlexLayoutsTests */,
+				0EAB64B82BA7E06B0016AC4C /* FlexLayoutsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EAB64972BA7E0690016AC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAB64A92BA7E06A0016AC4C /* LaunchScreen.storyboard in Resources */,
+				0EAB64A62BA7E06A0016AC4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAB64AD2BA7E06A0016AC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAB64B72BA7E06B0016AC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EAB64952BA7E0690016AC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFFFAED2BA7EFA800C58DFE /* FlexbackgroundColorViewController.swift in Sources */,
+				0EFFFAE32BA7EB5A00C58DFE /* FlexRowViewController.swift in Sources */,
+				0EFFFAEB2BA7EEDD00C58DFE /* FlexHorizontalViewController.swift in Sources */,
+				0EFFFAE52BA7EBEA00C58DFE /* FlexPaddingViewController.swift in Sources */,
+				0EFFFAEF2BA7F28300C58DFE /* FlexGrowViewController.swift in Sources */,
+				0EAB64A12BA7E0690016AC4C /* FlexColumeViewController.swift in Sources */,
+				0EAB649D2BA7E0690016AC4C /* AppDelegate.swift in Sources */,
+				0EFFFAE92BA7EE8B00C58DFE /* FlexPaddingHorizontalViewController.swift in Sources */,
+				0EFFFAE72BA7EC6900C58DFE /* FlexPaddingLeftViewController.swift in Sources */,
+				0EAB649F2BA7E0690016AC4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAB64AB2BA7E06A0016AC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAB64B42BA7E06B0016AC4C /* FlexLayoutsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EAB64B52BA7E06B0016AC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAB64BE2BA7E06B0016AC4C /* FlexLayoutsUITests.swift in Sources */,
+				0EAB64C02BA7E06B0016AC4C /* FlexLayoutsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EAB64B12BA7E06A0016AC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EAB64982BA7E0690016AC4C /* FlexLayouts */;
+			targetProxy = 0EAB64B02BA7E06A0016AC4C /* PBXContainerItemProxy */;
+		};
+		0EAB64BB2BA7E06B0016AC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EAB64982BA7E0690016AC4C /* FlexLayouts */;
+			targetProxy = 0EAB64BA2BA7E06B0016AC4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EAB64A72BA7E06A0016AC4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EAB64A82BA7E06A0016AC4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EAB64C12BA7E06B0016AC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EAB64C22BA7E06B0016AC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EAB64C42BA7E06B0016AC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexLayouts/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.FlexLayouts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EAB64C52BA7E06B0016AC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexLayouts/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.FlexLayouts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EAB64C72BA7E06B0016AC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.FlexLayoutsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexLayouts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlexLayouts";
+			};
+			name = Debug;
+		};
+		0EAB64C82BA7E06B0016AC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.FlexLayoutsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexLayouts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlexLayouts";
+			};
+			name = Release;
+		};
+		0EAB64CA2BA7E06B0016AC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.FlexLayoutsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlexLayouts;
+			};
+			name = Debug;
+		};
+		0EAB64CB2BA7E06B0016AC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.FlexLayoutsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlexLayouts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EAB64942BA7E0690016AC4C /* Build configuration list for PBXProject "FlexLayouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAB64C12BA7E06B0016AC4C /* Debug */,
+				0EAB64C22BA7E06B0016AC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EAB64C32BA7E06B0016AC4C /* Build configuration list for PBXNativeTarget "FlexLayouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAB64C42BA7E06B0016AC4C /* Debug */,
+				0EAB64C52BA7E06B0016AC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EAB64C62BA7E06B0016AC4C /* Build configuration list for PBXNativeTarget "FlexLayoutsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAB64C72BA7E06B0016AC4C /* Debug */,
+				0EAB64C82BA7E06B0016AC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EAB64C92BA7E06B0016AC4C /* Build configuration list for PBXNativeTarget "FlexLayoutsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAB64CA2BA7E06B0016AC4C /* Debug */,
+				0EAB64CB2BA7E06B0016AC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0EAB64CC2BA7E19F0016AC4C /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.7;
+			};
+		};
+		0EAB64CF2BA7E27F0016AC4C /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		0EAB64D22BA7E4000016AC4C /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EAB64CD2BA7E19F0016AC4C /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EAB64CC2BA7E19F0016AC4C /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
+		};
+		0EAB64D02BA7E27F0016AC4C /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EAB64CF2BA7E27F0016AC4C /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		0EAB64D32BA7E4000016AC4C /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EAB64D22BA7E4000016AC4C /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0EAB64912BA7E0690016AC4C /* Project object */;
+}
